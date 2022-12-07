@@ -61,3 +61,24 @@ const myArray = [
 ];
 
 const myData = myArray[2][1];
+
+//Comparison with the Strict Equality Operator
+function testStrict(val) {
+  if (val === 7) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
+testStrict("7");
+//Practice comparing different values
+function compareEquality(a, b) {
+  if (a === b) {
+    // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");
