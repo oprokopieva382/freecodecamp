@@ -82,3 +82,12 @@ function compareEquality(a, b) {
 }
 
 compareEquality(10, "10");
+//Comparison with the Inequality Operator
+function testNotEqual(val) {
+  if (val != 99) {
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(99);
