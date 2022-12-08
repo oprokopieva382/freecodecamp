@@ -384,3 +384,13 @@ function countdown(n) {
     return countArray;
   }
 }
+//Use Recursion to Create a Range of Numbers
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum > endNum) {
+    return [];
+  } else {
+    let newNumArr = rangeOfNumbers(startNum, endNum - 1);
+    newNumArr.push(endNum);
+    return newNumArr;
+  }
+}
