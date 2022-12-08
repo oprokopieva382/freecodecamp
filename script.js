@@ -235,3 +235,9 @@ function updateRecords(records, id, prop, value) {
 }
 
 updateRecords(recordCollection, 5439, "artist", "ABBA");
+//Iterate with JavaScript While Loops
+let i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
