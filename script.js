@@ -241,3 +241,8 @@ while (i >= 0) {
   myArray.push(i);
   i--;
 }
+//Iterate with JavaScript For Loops
+const myArray1 = [];
+for (let i = 1; i <= 5; i++) {
+  myArray1.push(i);
+}
