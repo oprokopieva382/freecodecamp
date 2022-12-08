@@ -348,3 +348,10 @@ function randomWholeNum() {
 function randomRange(myMin, myMax) {
   return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
 }
+//Use the parseInt Function
+function convertToInteger(str) {
+  const a = parseInt(str);
+  return a;
+}
+
+convertToInteger("56");
