@@ -355,3 +355,10 @@ function convertToInteger(str) {
 }
 
 convertToInteger("56");
+//Use the parseInt Function with a Radix
+function convertToInteger(str) {
+  let b = parseInt(str, 2);
+  return b;
+}
+
+convertToInteger("10011");
