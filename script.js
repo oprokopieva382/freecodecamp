@@ -246,3 +246,8 @@ const myArray1 = [];
 for (let i = 1; i <= 5; i++) {
   myArray1.push(i);
 }
+//Iterate Odd Numbers With a For Loop
+const myArray2 = [];
+for (let i = 1; i <= 9; i += 2) {
+  myArray2.push(i);
+}
