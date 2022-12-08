@@ -251,3 +251,8 @@ const myArray2 = [];
 for (let i = 1; i <= 9; i += 2) {
   myArray2.push(i);
 }
+//Count Backwards With a For Loop
+const myArray3 = [];
+for (let i = 9; i >= 1; i -= 2) {
+  myArray3.push(i);
+}
